@@ -5,10 +5,9 @@ function addElementToBeginningOfArray(array, element){
   return moreAr;
 }
 
-var xc = 'foo';
-var bv=[1]
+
 function destructivelyAddElementToBeginningOfArray(xc, bv){
-   console.log(xc)
+   
    return xc.unshift(bv);
 }
 
